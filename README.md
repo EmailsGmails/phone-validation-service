@@ -1,5 +1,5 @@
 # phone-validation-service
 
-1. Build the microservice: mvn clean install
-2. Run tests: mvn install -Dmaven.test.failure.ignore=true
-3. Run microservice: "mvn spring-boot:run"
+1. Only build the microservice:           mvn clean install
+2. Build the microservice and run tests:  mvn install -Dmaven.test
+3. Build and run the microservice:        mvn spring-boot:run
